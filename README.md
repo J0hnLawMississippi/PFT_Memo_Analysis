@@ -18,7 +18,8 @@ xrpl-py 3.0.0
 async_token_memos.py gets the PFT token transactions with xrpl-py, extracts memo-data and writes the result to the full_memo_data json file.
 
 memo_scores.py reads in memo data, filters the data for users and runs a gpt-4o or mistral-large prompt via openrouter to classify users by their expertise in different categories.
-Score weight categories can be adapted in the prompt to generate different results and check them for convergence or lack thereof. A final AI model weighted score ouput is generated for each network user.
+Score weight categories can be adapted in the prompt to generate different results. (See more_results for comparison, convergences, divergences). 
+A final AI model weighted score ouput is generated for each network user.
 
 single_user_scores.py queries memo data for a single user and outputs an explanation for scores, every score component, a human as well as an AI weighted score.
 
