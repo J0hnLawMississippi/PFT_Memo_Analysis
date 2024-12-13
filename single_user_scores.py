@@ -45,7 +45,7 @@ async def main():
     
     
     file_path = "/home/trademachine/PFT/full_memo_data0.json"
-    api_key = "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"
+    api_key = ""
     prompt = """Rank the 'data' content of the provided json by the likelihood that the associated 'user'
     has an understanding of NVDA stock with scores from a minimum of 0 to a maximum of 100.
     A score of 0 means 0% probability of understanding NVDA stock,
